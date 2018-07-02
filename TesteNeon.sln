@@ -9,25 +9,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{59589385-06AC-43F1-977D-215DDC63D38F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorDeMoeda", "ConversorDeMoeda\ConversorDeMoeda.csproj", "{904B16EC-0492-4B43-9C59-55B782BD6920}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversorDeMoeda", "ConversorDeMoeda\ConversorDeMoeda.csproj", "{904B16EC-0492-4B43-9C59-55B782BD6920}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{DDBAD2AF-1641-4044-B62A-7CC333C7DD0F}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\Documents\Teste MindMiners\_index.html = ..\..\..\Documents\Teste MindMiners\_index.html
-		..\..\..\Documents\Teste MindMiners\avaliacaoFormulario.html = ..\..\..\Documents\Teste MindMiners\avaliacaoFormulario.html
-		..\..\..\Documents\Teste MindMiners\funcaoRecursivaPotenciaDe2.html = ..\..\..\Documents\Teste MindMiners\funcaoRecursivaPotenciaDe2.html
-		..\..\..\Documents\Teste MindMiners\funcaoVetores.html = ..\..\..\Documents\Teste MindMiners\funcaoVetores.html
-		..\..\..\Documents\Teste MindMiners\index.html = ..\..\..\Documents\Teste MindMiners\index.html
-		..\..\..\Documents\Teste MindMiners\style.css = ..\..\..\Documents\Teste MindMiners\style.css
+		index.html = index.html
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{5FFCAEA2-FD73-43C7-84A4-C0EF937D439C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{5FFCAEA2-FD73-43C7-84A4-C0EF937D439C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moedas", "Moedas\Moedas.csproj", "{4504F4B3-7679-4FBD-BBE3-B84EB50A8E65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moedas", "Moedas\Moedas.csproj", "{4504F4B3-7679-4FBD-BBE3-B84EB50A8E65}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cross", "Cross", "{B4FD4F2C-D218-4C55-9EC5-A0ED18661E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "IoC\IoC.csproj", "{D241EE9D-DB73-441B-A99F-6237C416839D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC", "IoC\IoC.csproj", "{D241EE9D-DB73-441B-A99F-6237C416839D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Tests", "4 - Tests", "{199F399E-E621-4FFA-A8B4-C2714A027644}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDomain", "TestDomain\TestDomain.csproj", "{0702F295-7693-4AD4-9E66-9484844C3F36}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +50,10 @@ Global
 		{D241EE9D-DB73-441B-A99F-6237C416839D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D241EE9D-DB73-441B-A99F-6237C416839D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D241EE9D-DB73-441B-A99F-6237C416839D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0702F295-7693-4AD4-9E66-9484844C3F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0702F295-7693-4AD4-9E66-9484844C3F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0702F295-7693-4AD4-9E66-9484844C3F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0702F295-7693-4AD4-9E66-9484844C3F36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +64,7 @@ Global
 		{4504F4B3-7679-4FBD-BBE3-B84EB50A8E65} = {E4CFDDEC-07E7-46E4-B468-4B2BDC5317BE}
 		{B4FD4F2C-D218-4C55-9EC5-A0ED18661E9E} = {59589385-06AC-43F1-977D-215DDC63D38F}
 		{D241EE9D-DB73-441B-A99F-6237C416839D} = {B4FD4F2C-D218-4C55-9EC5-A0ED18661E9E}
+		{0702F295-7693-4AD4-9E66-9484844C3F36} = {199F399E-E621-4FFA-A8B4-C2714A027644}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77D7CC00-79E1-4B4A-918A-89E522F87F27}

@@ -1,9 +1,11 @@
 ﻿using ConversorDeMoeda.Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Moedas.Controllers
 {
     [Route("api/[controller]")]
+    [EnableCors("CorsPolicy")]
     public class MoedasController : Controller
     {
         private readonly IMoedaRepository repository;
